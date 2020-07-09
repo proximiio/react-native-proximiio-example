@@ -53,7 +53,7 @@ export default class Instructions extends React.Component<Props, State> {
           <Button 
             size="small" 
             appearance="outline" 
-            onPress={() => ProximiioMapbox.routeCancel()} 
+            onPress={() => ProximiioMapbox.route.cancel()} 
             style={{ alignSelf: 'flex-end', margin: 0 }}>
             Stop Navigation
           </Button>

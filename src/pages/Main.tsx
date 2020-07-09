@@ -82,7 +82,7 @@ class Main extends Component<Props, State> {
   }
 
   onSearchSelect(feature: Feature) {
-    ProximiioMapbox.routeFind(feature.id, false)
+    ProximiioMapbox.route.find(feature.id, false);
     this.setState({ query: '', })
   }
 

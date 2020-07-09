@@ -73,8 +73,8 @@ export function Callout({ feature, onClose, visible }: Props) {
         <View style={{ width: '100%', backgroundColor: '#f3f3f3', padding: 12, display: 'flex', flexDirection: 'row', borderBottomLeftRadius: 6, borderBottomRightRadius: 6 }}>
           <Button 
             onPress={async () => {
-              ProximiioMapbox.routeCancel()
-              await ProximiioMapbox.routeFind(feature.id, false)
+              ProximiioMapbox.route.cancel()
+              await ProximiioMapbox.route.find(feature.id, false);
               onClose()
             }} 
             size="small" 
