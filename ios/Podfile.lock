@@ -219,7 +219,7 @@ PODS:
   - react-native-proximiio (5.0.3):
     - Proximiio
     - React
-  - react-native-proximiio-mapbox (5.0.4):
+  - react-native-proximiio-mapbox (5.0.5):
     - ProximiioMapbox
     - React
   - React-RCTActionSheet (0.62.2):
@@ -429,7 +429,7 @@ SPEC CHECKSUMS:
   React-jsinspector: 512e560d0e985d0e8c479a54a4e5c147a9c83493
   react-native-mapbox-gl: 77b87a1dd2d7b41b6b77018c0f3bed5f8ee55c81
   react-native-proximiio: 25bc2cd6075c63bcc605c9a7d39b1c0eb9c9e5e2
-  react-native-proximiio-mapbox: 2cfd6e35931e19e8e1d815a395bca5671c22b6e7
+  react-native-proximiio-mapbox: 3bbd5257cd15de3a2cbb69aa9761006f2c96c122
   React-RCTActionSheet: f41ea8a811aac770e0cc6e0ad6b270c644ea8b7c
   React-RCTAnimation: 49ab98b1c1ff4445148b72a3d61554138565bad0
   React-RCTBlob: a332773f0ebc413a0ce85942a55b064471587a71
