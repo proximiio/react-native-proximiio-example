@@ -29,11 +29,11 @@ PODS:
   - Mapbox-iOS-SDK (5.9.0):
     - MapboxMobileEvents (= 0.10.2)
   - MapboxMobileEvents (0.10.2)
-  - Proximiio (5.0.5):
+  - Proximiio (5.0.6):
     - CrystDBCipher
     - DarklyEventSource
     - IndoorAtlas
-  - ProximiioMapbox (5.0.9):
+  - ProximiioMapbox (5.0.13):
     - Alamofire
     - GRMustache.swift
     - Mapbox-iOS-SDK
@@ -416,8 +416,8 @@ SPEC CHECKSUMS:
   IndoorAtlas: 29870441ddd87308885e9bd8da9eff5d69f35577
   Mapbox-iOS-SDK: a5915700ec84bc1a7f8b3e746d474789e35b7956
   MapboxMobileEvents: 2bc0ca2eedb627b73cf403258dce2b2fa98074a6
-  Proximiio: 9e4f67f38872a95c1d3ac1d235da323bbddfd6fb
-  ProximiioMapbox: b64b2899dd3f570051f87f6fa8f38b6422f8cc69
+  Proximiio: d2e2a87b141c604f037e9edd0f5cfede5d4ac19f
+  ProximiioMapbox: 46cb41c9b33845dbfe39126afb17ce0fb3444f27
   RCTRequired: cec6a34b3ac8a9915c37e7e4ad3aa74726ce4035
   RCTTypeSafety: 93006131180074cffa227a1075802c89a49dd4ce
   React: 29a8b1a02bd764fb7644ef04019270849b9a7ac3
@@ -445,6 +445,6 @@ SPEC CHECKSUMS:
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
   Yoga: 3ebccbdd559724312790e7742142d062476b698e
 
-PODFILE CHECKSUM: be6599af633dc676e77b8670b45743351af0bbdc
+PODFILE CHECKSUM: 8eabb2017f3d5647ae112995ab86807b39c4c0bc
 
 COCOAPODS: 1.9.1

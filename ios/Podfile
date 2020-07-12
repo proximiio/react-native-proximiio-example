@@ -85,6 +85,15 @@ target 'ReactNativeProximiioExample' do
 
   use_native_modules!
 
+  post_install do |installer|
+    #flipper_post_install(installer)
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['SWIFT_VERSION'] = '5.1'
+            config.build_settings['ENABLE_BITCODE'] = 'NO'
+        end
+    end
+  end
   # Enables Flipper.
   #
   # Note that if you have use_frameworks! enabled, Flipper will not work and

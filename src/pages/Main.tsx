@@ -67,9 +67,6 @@ class Main extends Component<Props, State> {
   async initialize() {
     await Proximiio.authorize(settings.proximiio.token);
     await ProximiioMapbox.authorize(settings.proximiio.token);
-    Proximiio.subscribe(ProximiioEvents.UpdatedIBeacon, (beacon) =>
-      console.log("beacon update", beacon)
-    );
     Proximiio.requestPermissions();
     await this.setState({
       initialized: true,
