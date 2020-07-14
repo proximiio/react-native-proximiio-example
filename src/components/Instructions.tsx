@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Text } from 'react-native';
+import { Text, Platform } from 'react-native';
 import { Layout, Card, Button } from '@ui-kitten/components';
 import ProximiioMapbox from 'react-native-proximiio-mapbox';
 import { ProximiioRouteEvents } from '../../node_modules/react-native-proximiio-mapbox/src/route_manager';
@@ -53,11 +53,13 @@ export default class Instructions extends React.Component<Props, State> {
 
   private update = async () => {
     const { route } = ProximiioMapbox.route;
-    if (route && route.descriptor.steps.length > 1) {
+    if (route && route.descriptor && route.descriptor.steps.length > 1) {
+      const instProp = Platform.OS === 'ios' ? 'instructions' : 'instruction';
+      const instruction = (route.descriptor.steps[1] as any)[instProp];
       this.setState({
         instruction: ProximiioMapbox.route.isPreview
           ? 'Route preview only mode'
-          : route.descriptor.steps[1].instruction,
+          : instruction,
         distance: route.descriptor.distanceMeters,
         duration: route.descriptor.duration,
       });

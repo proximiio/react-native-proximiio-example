@@ -33,7 +33,7 @@ PODS:
     - CrystDBCipher
     - DarklyEventSource
     - IndoorAtlas
-  - ProximiioMapbox (5.0.13):
+  - ProximiioMapbox (5.0.14):
     - Alamofire
     - GRMustache.swift
     - Mapbox-iOS-SDK
@@ -219,7 +219,7 @@ PODS:
   - react-native-proximiio (5.0.3):
     - Proximiio
     - React
-  - react-native-proximiio-mapbox (5.0.5):
+  - react-native-proximiio-mapbox (5.0.7):
     - ProximiioMapbox
     - React
   - React-RCTActionSheet (0.62.2):
@@ -417,7 +417,7 @@ SPEC CHECKSUMS:
   Mapbox-iOS-SDK: a5915700ec84bc1a7f8b3e746d474789e35b7956
   MapboxMobileEvents: 2bc0ca2eedb627b73cf403258dce2b2fa98074a6
   Proximiio: d2e2a87b141c604f037e9edd0f5cfede5d4ac19f
-  ProximiioMapbox: 46cb41c9b33845dbfe39126afb17ce0fb3444f27
+  ProximiioMapbox: e34af258b9ee7f38f0ae65c97517ff409f832eb0
   RCTRequired: cec6a34b3ac8a9915c37e7e4ad3aa74726ce4035
   RCTTypeSafety: 93006131180074cffa227a1075802c89a49dd4ce
   React: 29a8b1a02bd764fb7644ef04019270849b9a7ac3
@@ -429,7 +429,7 @@ SPEC CHECKSUMS:
   React-jsinspector: 512e560d0e985d0e8c479a54a4e5c147a9c83493
   react-native-mapbox-gl: 77b87a1dd2d7b41b6b77018c0f3bed5f8ee55c81
   react-native-proximiio: 25bc2cd6075c63bcc605c9a7d39b1c0eb9c9e5e2
-  react-native-proximiio-mapbox: 3bbd5257cd15de3a2cbb69aa9761006f2c96c122
+  react-native-proximiio-mapbox: 97518f4492272e9afbee8b9fea1e853a71099e80
   React-RCTActionSheet: f41ea8a811aac770e0cc6e0ad6b270c644ea8b7c
   React-RCTAnimation: 49ab98b1c1ff4445148b72a3d61554138565bad0
   React-RCTBlob: a332773f0ebc413a0ce85942a55b064471587a71
